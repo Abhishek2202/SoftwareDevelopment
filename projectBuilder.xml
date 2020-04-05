@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<project name="AntFile.java" default="JRmake" basedir=".">	
+	<target name ="JRmake" description="Output for the Ant File">
+	<jar jarfile="AntFile.jar" includes="*.class" basedir=""/>
+	</target>
+	
+</project>
